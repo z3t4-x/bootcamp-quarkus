@@ -1,0 +1,5 @@
+package com.nttdata.domain;
+
+public class CatalogosValores {
+
+}

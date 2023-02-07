@@ -1,0 +1,23 @@
+package com.nttdata.domain;
+
+public class CatalogosValores {
+	
+	
+	private Integer idValor;
+	
+	
+	private String dsValor;
+	
+	private String cdCodigo;
+	
+	
+	private String itMantenible;
+	
+	
+	private Catalogos catalogo;
+	
+	
+	
+	
+
+}

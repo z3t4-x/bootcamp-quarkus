@@ -1,0 +1,64 @@
+package com.nttdata.domain;
+
+
+
+public class Catalogos {
+
+	
+	
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer idCatalogo;
+	
+	private String dsNombre;
+	
+	
+	private String tlDescripcion;
+	
+	private String itMatenible;
+
+	public Integer getIdCatalogo() {
+		return idCatalogo;
+	}
+
+	public void setIdCatalogo(Integer idCatalogo) {
+		this.idCatalogo = idCatalogo;
+	}
+
+	public String getDsNombre() {
+		return dsNombre;
+	}
+
+	public void setDsNombre(String dsNombre) {
+		this.dsNombre = dsNombre;
+	}
+
+	public String getTlDescripcion() {
+		return tlDescripcion;
+	}
+
+	public void setTlDescripcion(String tlDescripcion) {
+		this.tlDescripcion = tlDescripcion;
+	}
+
+	public String getItMatenible() {
+		return itMatenible;
+	}
+
+	public void setItMatenible(String itMatenible) {
+		this.itMatenible = itMatenible;
+	}
+
+	@Override
+	public String toString() {
+		return "Catalogos [idCatalogo=" + idCatalogo + ", dsNombre=" + dsNombre + ", tlDescripcion=" + tlDescripcion
+				+ ", itMatenible=" + itMatenible + "]";
+	}
+	
+	
+	
+	
+	
+	
+	
+}
